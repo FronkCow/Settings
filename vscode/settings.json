@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+
+    "editor.fontFamily": "Hack-Regular",
+    "workbench.colorTheme": "Dark (Molokai)",
+
+    "go.gopath": "~/Projects/go",
+    "go.goroot": "~/.gvm/gos/go1.12.7",
+    "go.buildOnSave": "off",
+    "go.inferGopath": true,
+
+    "explorer.confirmDelete": false,
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "fullscreen",
+    "workbench.editor.showTabs": false,
+
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+}

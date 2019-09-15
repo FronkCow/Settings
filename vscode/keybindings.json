@@ -1,0 +1,59 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Toggle between terminal and editor focus
+    { 
+        "key": "ctrl+`", 
+        "command": "workbench.action.terminal.focus"
+    },
+    { 
+        "key": "ctrl+`", 
+        "command": "workbench.action.focusActiveEditorGroup", 
+        "when": "terminalFocus"
+    },
+
+    // tmux like window pane movement
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    },
+
+    // context menu use vim keyboard shortcuts
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+
+    // command palette use vim keyboard shorcuts
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "!suggestWidgetMultipleSuggestions || !suggestWidgetVisible || !textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "!suggestWidgetMultipleSuggestions || !suggestWidgetVisible || !textInputFocus",
+    },
+    {
+        "key": "ctrl+q",
+        "command":"workbench.action.closeEditorsInGroup"
+    }
+]
