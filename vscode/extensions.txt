@@ -1,0 +1,8 @@
+eamodio.gitlens
+Gruntfuggly.todo-tree
+ms-vscode.cpptools
+ms-vscode.Go
+msyrus.go-doc
+nonylene.dark-molokai-theme
+skyapps.fish-vscode
+vscodevim.vim
