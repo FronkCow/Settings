@@ -1,5 +1,6 @@
 eamodio.gitlens
 Gruntfuggly.todo-tree
+ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 msyrus.go-doc
